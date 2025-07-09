@@ -22,9 +22,15 @@ After downloading, unzip the file and place the contents under the following pat
 
 nnUNet_trained_models/nnUNet/3d_fullres/Task099_Ureter_VUE/nnUNetTrainerV2__nnUNetPlansv2.1_big/
 
+
 > Create the directory manually if it doesn't already exist.
 
 ---
+
+✅ Example input data for testing:
+
+📂 [Download example input data](https://drive.google.com/drive/folders/1Zoc3TWFuRrchxCQMMN8miefeMFDpnqHm?usp=drive_link)
+
 ## Inference
 
 To run inference on new NIfTI-format images, use the following script:
@@ -68,8 +74,8 @@ pip install nnunet simpleitk nibabel
 ## Citation
 If you use this model or code, please cite the corresponding paper:
 
-Moon M, et al.
-Feasibility of Training Data Extraction for Ureter Segmentation Using Dual-Energy CT-Based Two-Material Decomposition
+Jung et al.
+Generating Training Data for Ureter Segmentation Using Dual-Energy CT Two-Material Decomposition
 In preparation / Under review
 
 ## License
